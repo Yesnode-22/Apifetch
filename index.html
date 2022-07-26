@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Weather App</title>
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+      <div class="header">
+        <div>
+          <img src="./images/Vector.svg" alt="location">
+          <span style="font-size: 20px;">Ho, Ghana</span>
+        </div>
+        <div id="date">26-07-2022</div>
+      </div>
+
+      <div class="card">
+        <div class="card-item">
+          <span id="temp" style="font-size: 64px;"></span>
+          <img style="width: 55px;" src="./images/35733-weather-day-thunderstorm.gif" alt="cloud">
+        </div>
+          <div class="card-item">
+            <div> <span>Real feel</span>
+              <span id="real"></span>
+            </div>
+            <span id="weather"> cloudy</span>
+          </div>
+      </div>
+
+    <div class="values">
+      <div class="value">
+        <span>UVindex</span>
+        <span id="uv">0</span>
+      </div>
+      <div class="value">
+        <span>Humidity</span>
+        <span id="humidity">0</span>
+      </div>
+      <div class="value">
+        <span>Windspeed</span>
+        <span id="wind">0</span>
+      </div>
+      <div class="value">
+        <span>Rain</span>
+        <span id="rain">0</span>
+      </div>
+
+      <div class="value">
+        <span>Pressure</span>
+        <span id="pressure">0</span>
+      </div>
+    </div>
+    <div class="icons">
+      <a href="https://www.accuweather.com/en/gh/tema/178542/daily-weather-forecast/178542?day=1"><img
+          src="./images/Group.svg" alt=""></a>
+      <img src="./images/Group (1).svg" alt="">
+     <a href="https://www.meteo.gov.gh/gmet/"><img src="./images/Group (2).svg" alt=""></a>
+      <a href="https://www.bbc.com/weather/2306104"><img src="./images/Vector.svg" alt=""></a>
+    </div>
+    </div>
+    <div class="right">
+        <img class="gif" src="./images/45869-farmers.gif" alt="Farmer">
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

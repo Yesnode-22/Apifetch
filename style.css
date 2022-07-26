@@ -1,0 +1,131 @@
+body {
+  background-color: rgb(18, 234, 162);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(18, 234, 162);
+  justify-content: space-between;
+
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+
+}
+
+.gif {
+  border-radius: 50%;
+  height: 40%;
+  width: 40%;
+  /* justify-content: center; */
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 28px;
+  height: 10%;
+  width: 100%;
+  gap: 58px;
+  justify-content: center;
+
+  position: absolute;
+  width: 304px;
+  height: 44px;
+  top: 580px;
+  left: 170px;
+
+  background: #ffff;
+  box-shadow: 0px 2px 30px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 40px;
+}
+
+.values {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  position: absolute;
+  width: 234px;
+  height: 154px;
+  left: 221px;
+  top: 398px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 12px;
+
+}
+
+.value {
+  display: flex;
+  flex-direction: row;
+  gap: 175px;
+  margin-top: 20px;
+}
+
+.card {
+  width: 306px;
+  height: 161px;
+  left: 169px;
+  top: 0px;
+  background: #ffff;
+  box-shadow: 0px 0px 128px -7px rgba(0, 0, 0, 0.25);
+  border-radius: 19px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 5px;
+  gap: 20px;
+}
+
+.card-item {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.header {
+  position: absolute;
+  width: 290px;
+  top: 100px;
+  height: 56px;
+  left: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffff;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+#uv #rain #humidity #wind #pressure{
+  display: flex;
+
+}
+
